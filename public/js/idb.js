@@ -71,7 +71,7 @@ function saveRecord(record) {
               // clear all items in your store
               budgetObjectStore.clear();
     
-              alert('All saved pizza has been submitted!');
+              alert('All saved data has been submitted!');
             })
             .catch(err => {
               console.log(err);
